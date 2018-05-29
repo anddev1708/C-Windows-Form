@@ -1,0 +1,15 @@
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.csprojResolveAssemblyReference.cache
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.Form1.resources
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.Properties.Resources.resources
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.csproj.GenerateResource.cache
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.csproj.CoreCompileInputs.cache
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\AutoFacebook.exe.config
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\AutoFacebook.exe
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\AutoFacebook.pdb
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\Facebook.dll
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\Facebook.xml
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.csproj.CopyComplete
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.exe
+C:\Users\PC-03\Documents\Visual Studio 2017\Projects\AutoFacebook\AutoFacebook\obj\Debug\AutoFacebook.pdb
