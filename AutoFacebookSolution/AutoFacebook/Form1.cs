@@ -91,7 +91,8 @@ namespace AutoFacebook
                         rtResult.Text += "\n" + url;
                         element.InvokeMember("click");
 
-                        await Task.Delay(1000);
+                        // Delay 3 second to click
+                        await Task.Delay(3000);
                     }
                 }
             }
