@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -48,7 +49,52 @@ namespace AutoFacebook
 
         private void btnGetFriend_Click(object sender, EventArgs e)
         {
+            wvMain.Navigate("https://www.facebook.com/danchoioto/videos/2086961871543598/");
+        }
 
+        private void btnShowPopup_Click(object sender, EventArgs e)
+        {
+            foreach (HtmlElement element in wvMain.Document.GetElementsByTagName("a"))
+            {
+
+                String url = element.GetAttribute("href");
+                //rtResult.Text += "\n" + url;
+
+                Regex regex = new Regex(@"/ufi/reaction/profile/browser/");
+                Match match = regex.Match(url);
+                if (match.Success)
+                {
+                    // Console.WriteLine(match.Value);
+                    // MessageBox.Show("Matched");
+                    element.InvokeMember("click");
+                    break;
+                }
+            }
+        }
+
+        private async void btnAddFriend_Click(object sender, EventArgs e)
+        {
+            foreach (HtmlElement element in wvMain.Document.GetElementsByTagName("button"))
+            {
+
+                String url = element.GetAttribute("className");
+                
+
+                Regex regex = new Regex(@"FriendRequestAdd addButton");
+                Match match = regex.Match(url);
+                if (match.Success)
+                {
+                    // Console.WriteLine(match.Value);
+                    // MessageBox.Show("Matched");
+                    if (!url.Contains("hidden_elem"))
+                    {
+                        rtResult.Text += "\n" + url;
+                        element.InvokeMember("click");
+
+                        await Task.Delay(1000);
+                    }
+                }
+            }
         }
     }
 }

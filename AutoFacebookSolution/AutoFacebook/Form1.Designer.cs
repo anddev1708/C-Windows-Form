@@ -34,6 +34,9 @@
             this.btnGetFriend = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblLink = new System.Windows.Forms.Label();
+            this.rtResult = new System.Windows.Forms.RichTextBox();
+            this.btnShowPopup = new System.Windows.Forms.Button();
+            this.btnAddFriend = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPost
@@ -51,7 +54,7 @@
             this.wvMain.Location = new System.Drawing.Point(12, 43);
             this.wvMain.MinimumSize = new System.Drawing.Size(20, 20);
             this.wvMain.Name = "wvMain";
-            this.wvMain.Size = new System.Drawing.Size(1091, 469);
+            this.wvMain.Size = new System.Drawing.Size(1091, 391);
             this.wvMain.TabIndex = 1;
             this.wvMain.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.wvMain_Navigated);
             // 
@@ -92,11 +95,42 @@
             this.lblLink.Size = new System.Drawing.Size(0, 13);
             this.lblLink.TabIndex = 5;
             // 
+            // rtResult
+            // 
+            this.rtResult.Location = new System.Drawing.Point(12, 453);
+            this.rtResult.Name = "rtResult";
+            this.rtResult.Size = new System.Drawing.Size(905, 99);
+            this.rtResult.TabIndex = 6;
+            this.rtResult.Text = "";
+            // 
+            // btnShowPopup
+            // 
+            this.btnShowPopup.Location = new System.Drawing.Point(836, 12);
+            this.btnShowPopup.Name = "btnShowPopup";
+            this.btnShowPopup.Size = new System.Drawing.Size(133, 23);
+            this.btnShowPopup.TabIndex = 7;
+            this.btnShowPopup.Text = "SHOW POPUP";
+            this.btnShowPopup.UseVisualStyleBackColor = true;
+            this.btnShowPopup.Click += new System.EventHandler(this.btnShowPopup_Click);
+            // 
+            // btnAddFriend
+            // 
+            this.btnAddFriend.Location = new System.Drawing.Point(992, 12);
+            this.btnAddFriend.Name = "btnAddFriend";
+            this.btnAddFriend.Size = new System.Drawing.Size(111, 23);
+            this.btnAddFriend.TabIndex = 8;
+            this.btnAddFriend.Text = "ADD FRIEND";
+            this.btnAddFriend.UseVisualStyleBackColor = true;
+            this.btnAddFriend.Click += new System.EventHandler(this.btnAddFriend_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1116, 564);
+            this.Controls.Add(this.btnAddFriend);
+            this.Controls.Add(this.btnShowPopup);
+            this.Controls.Add(this.rtResult);
             this.Controls.Add(this.lblLink);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnGetFriend);
@@ -118,6 +152,9 @@
         private System.Windows.Forms.Button btnGetFriend;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblLink;
+        private System.Windows.Forms.RichTextBox rtResult;
+        private System.Windows.Forms.Button btnShowPopup;
+        private System.Windows.Forms.Button btnAddFriend;
     }
 }
 
